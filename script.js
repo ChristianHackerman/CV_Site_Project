@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const output = document.querySelector('.output');
 
     const commands = {
-        'dominik help': 'Available commands: dominik experience, dominik skills, clear',
-        'dominik experience': 'Experience: 5 years in software development...',
-        'dominik skills': 'Skills: JavaScript, Python, CSS, HTML...',
+        'christian help': 'Available commands: christian experience, christian skills, clear',
+        'christian experience': 'Experience: 5 years in software development...',
+        'christian skills': 'Skills: JavaScript, Python, CSS, HTML...',
         'clear': ''
     };
 
