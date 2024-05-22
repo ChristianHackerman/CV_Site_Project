@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: springgreen;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#terminal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.output {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.welcome-text {
+    color: white;
+}
+
+.input-line {
+    display: flex;
+}
+
+.prompt {
+    margin-right: 10px;
+    color: springgreen;
+}
+
+.domain {
+    color: springgreen;
+}
+
+.separator {
+    color: white;
+}
+
+input {
+    flex-grow: 1;
+    background: none;
+    border: none;
+    color: lightgray;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    outline: none;
+}
+
+pre {
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.2;
+    white-space: pre-wrap;
+}
+
+.blue-sign {
+    color: blue;
+}
